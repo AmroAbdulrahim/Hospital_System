@@ -1,0 +1,140 @@
+
+body{
+    background-color: #eee;
+}
+
+.header{
+    margin: 10px 10px 70px;
+    text-align: center;
+    color: #0065ff;
+}
+
+form{
+    display: grid;
+    width: 300px;
+    margin: auto;
+}
+
+label{
+    margin-left: 70px;
+    font-size: 15px;
+    color: #0065ff;
+}
+input{
+    margin: 0px 70px 10px;
+    
+}
+
+input:focus{
+   outline: none;
+   border: 2px solid #0065ff70;
+   border-radius: 3px;
+   box-shadow: 0 0 10px 0 #0065ff70;
+}
+
+button{
+    padding: 5px;
+    margin: 10px 120px;
+    border: none;
+    border-radius: 10px;
+    background-color: #0065ff70;
+    color: white;
+}
+
+button:hover{
+    background-color: #0065ff;
+}
+
+/* home page */
+.header-for-home{
+    margin: 10px 10px 20px;
+    text-align: center;
+    color: #0065ff;
+}
+
+.container{
+    padding: 10px 80px;
+}
+
+.Content{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.Content button{
+    margin: 5px 5px;
+}
+
+.registered{
+    width: 300px;
+    height: 160px;
+}
+.new-patient{
+    width: 200px;
+    height: 160px;
+    
+}
+.info{
+    width: 400px;
+    height: 100px;
+    height: 100px;
+    
+}
+.exit{
+    width: 100px;
+    height: 100px;
+}
+
+
+/* patient page */
+
+.info-patient{
+    margin: 0px 125px;
+}
+
+h3{
+    margin-bottom: 0px;
+}
+
+ul{
+    margin-top: 5px;
+}
+
+button.a {
+    padding: 5px;
+    margin: 5px 120px;
+    border: none;
+    border-radius: 10px;
+    background-color: #0065ff70;
+    color: white;
+}
+
+.data{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;   
+}
+
+button.a:hover{
+    background-color: #0065ff;
+}
+
+/* interview */
+select{
+    margin: 25px;
+}
+
+select:focus{
+    outline: none;
+    border: 1px solid #0065ff70;
+    border-radius: 3px;
+    box-shadow: 0 0 10px 2px #0065ff70;
+}
+
+select option{
+    border: 1px solid #0065ff70;   
+    box-shadow: 0 0 10px 2px #0065ff70;
+}
